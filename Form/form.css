@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background: #ecf0f3;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  display: flex;
+  font-weight: 700;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+.login-div{
+  padding: 60px 35px 35px 35px;
+  height: 700px;
+  width: 430px;
+  background: #ecf0f3;
+  border-radius: 40px;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #fff;
+}
+.logo{
+  background: url("https://www.designhill.com/uploads/data/styles/A%20L/48.jpg?ver=2.10.82");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px #5f5f5f,
+              8px 8px 15px #a7aaaf,
+              -8px -8px 15px #fff
+}
+.title{
+  font-family: monospace;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 25px;
+}
+.sub{
+font-weight: 200;
+text-align: center;
+padding-top: 5px;
+}
+.fields{
+width: 100%;
+padding: 75px 5px 5px 5px;
+}
+.fields input{
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #fff
+}
+.btn{
+  background: #24cfaa;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  font-weight: 700;
+  width: 100%;
+  font-size: 25px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.btn:hover{
+  background: #2fdbb6;
+}
+.btn:active{
+  background: #1da88a;
+}
+.link{
+  text-align: center;
+  padding-top: 20px;
+}
+.link a{
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+
+}
