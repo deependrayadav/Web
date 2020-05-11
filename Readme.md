@@ -1,2 +1,2 @@
-This is a repo with some beautifully desgined static web pages.
+This is a repo with some beautifully desgined webpages.
 GO FORK IT!
